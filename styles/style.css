@@ -107,6 +107,38 @@
   aspect-ratio: 1;
 }
 
+.card__image-start {
+  filter: brightness(120%) saturate(140%);
+}
+
+.card__image-clean {
+  filter: grayscale(100%);
+}
+
+.card__image-doubt {
+  filter: sepia(70%);
+}
+
+.card__image-perfectionizm {
+  filter: contrast(90%) hue-rotate(20deg);
+}
+
+.card__image-together {
+  filter: saturate(200%);
+}
+
+.card__image-strategy {
+  filter: invert(30%);
+}
+
+.card__image-frustration {
+  filter: grayscale(70%) blur(2px) brightness(80%);
+}
+
+.card__image-now {
+  filter: drop-shadow(5px 5px 10px #000);
+}
+
 .card__label {
   position: absolute;
   opacity: 0.5;
