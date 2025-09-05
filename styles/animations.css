@@ -10,7 +10,7 @@
 
 */
 
-@keyframes scaling {
+@keyframes like-icon-scale {
     from {
         transform: scale(1);
         transform-origin: center;
@@ -22,7 +22,7 @@
     }
 }
 
-@keyframes visibility {
+@keyframes like-icon-sparks-fade-in {
     from {
         opacity: 0;
     }

@@ -7,17 +7,16 @@
     --label-font-size: 14px;
     --bg-gradient: 
     repeating-linear-gradient(
-        90deg,
-        #d3d3d3 2px,
-        transparent 4px),
+      to right,
+      #d3d3d3 0px 2px,
+      transparent 2px 4px),
     repeating-linear-gradient(
-        #d3d3d3 2px,
-        transparent 4px
-    ),
+        to bottom, 
+        #d3d3d3 0px 2px, 
+        transparent 2px 4px),
     linear-gradient(
         #e7e7e7 0.01%,
-        #1a1a1a
-    );
+         #1a1a1a 100%);
     --bg-color: #fff;
     --border: 2px solid #000;
     --inline-size: clamp(375px, 100%, 700px);
